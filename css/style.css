@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+   background:rgb(27, 40, 58);
+    font: normal 14px 'Roboto', sans-serif;
+    color:white;
+    margin:0;
+
+} 
+ span{     
+     color:white; 
+} 
+.round_imeg {
+  width:20%;
+border-radius:50%;
+  box-shadow: 0 0 10px rgb(59, 56, 56);
+  padding:0.5em;
+}
+.container{ 
+  margin: auto;
+}
+.hobbi{
+  background: rgb(0, 119, 255);
+  padding:5px 10px;
+  border-radius: 15px;
+  margin:20px;
+}
+.Game{
+  background: rgb(0, 119, 255);
+  padding:5px 10px;
+  border-radius: 15px;
+  margin:20px;
+}            
+.containerr{
+ color:black;
+}
+nav{
+  background:rgb(0, 119, 255);
+  font-stretch: expanded;
+}
+*{
+  box-sizing:border-box;
+}
+.icon{
+  /* height: 100vh; */
+  justify-content:center;
+}
+.icons{
+  list-style:none;
+  padding:0;
+  display:flex;
+}
+.inons__item{
+width:60px;
+height:60px;
+border-radius:51%;
+border:5px solid;
+text-align:center;
+line-height:50px;
+font-size:27px;
+transition:all 0.9s;
+}
+.vk{
+  background:rgb(27, 40, 58);
+  color:white;
+}
+.telegram{
+  background:rgb(27, 40, 58);
+  color:white;
+}
+.vk:hover{
+  border-color:rgb(0,119,255);
+  color: rgb(0, 119, 255);
+  box-shadow:0px 0px 26px rgb(0,119,255);
+}
+.telegram:hover{
+  border-color:rgb(67, 83, 228);
+  color: rgb(67, 83, 228);
+  box-shadow: 0px 0px 27px rgb(67, 83, 228);
+}
+.vk.fa-vk{
+  box-shadow: 0px 0px 27px rgb(67, 83, 228);
+}
+.neonbutton{
+  position:relative;
+  color:rgb(0,119,255);
+  text-decoration:none;
+  text-transform: uppercase;
+  letter-spacing:2px;
+  overflow:hidden;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition:all 0.9s;
+  font-stretch: expanded;
+}
+.neonbutton:hover{
+  background-color: rgb(0,119,255);
+  color: rgb(27, 40, 58);
+  box-shadow: 0px 0px 27px rgb(0,119,255);
+}
+.burron__line{
+  position:absolute;
+  display:block;
+}
